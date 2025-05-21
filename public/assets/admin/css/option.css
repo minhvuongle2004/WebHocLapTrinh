@@ -1,0 +1,27 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+    padding-right: 20px; /* Tạo khoảng trống để tránh che nội dung */
+}
+
+/* Cố định cột ID */
+.sticky-id {
+    position: sticky;
+    left: -16px;
+    background: white;
+    z-index: 2;
+    border-right: 1px solid #ddd;
+}
+
+/* Cố định cột Actions */
+.sticky-actions {
+    position: sticky;
+    right: -30px;
+    background: white;
+    z-index: 2;
+    border-left: 1px solid #ddd;
+    min-width: 180px;
+    text-align: center;
+}

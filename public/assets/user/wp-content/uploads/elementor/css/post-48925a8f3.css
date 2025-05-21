@@ -1,0 +1,5 @@
+
+					.elementor-widget-stm_lms_courses_categories .stm_lms_courses_categories .stm_lms_courses_category > a
+				{background-color:var( --e-global-color-accent );}
+					.elementor-widget-stm_lms_courses_categories .stm_lms_courses_categories .stm_lms_courses_category > a:hover
+				{background-color:var( --e-global-color-accent );}
